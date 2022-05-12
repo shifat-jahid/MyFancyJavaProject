@@ -12,7 +12,7 @@ public class USD extends JFrame
     JTextField textUSD;
     JTextField textEuro;
 
-    JButton button;
+    JButton button1;
 
     JPanel panel;
     public USD()
@@ -27,8 +27,8 @@ public class USD extends JFrame
 
 
 
-        button = new JButton("Convert");
-        button.setBounds(45,50,130,20);
+        button1 = new JButton("Convert");
+        button1.setBounds(45,50,130,20);
 
 
         textEuro = new JTextField();
@@ -43,7 +43,7 @@ public class USD extends JFrame
         panel = new JPanel(null);
         panel.add(labelUSD);
         panel.add(labelEuro);
-        panel.add(button);
+        panel.add(button1);
         panel.add(textUSD);
         panel.add(textEuro);
 
